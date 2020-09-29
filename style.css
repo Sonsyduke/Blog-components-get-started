@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    background-color: #E5E5E5;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+    background-color: #D66892;
+    height: 30%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.main-header{
+    font-weight: 400;
+}
+
+@media(max-width: 768px){
+    .content-container{
+        height: 40%;
+        width: 40%;
+    }
+}
+
+@media(max-width: 375px){
+    .content-container{
+        height: 60%;
+        width: 60%;
+    }
+}
